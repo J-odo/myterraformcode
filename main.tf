@@ -60,3 +60,11 @@ resource "aws_instance" "test-5" {
     "Name" = "Makoec2"
   }
 }
+
+resource "aws_instance" "test-6" {
+  ami           = "ami-0dfcb1ef8550277af"
+  instance_type = "t2.micro"
+  tags = {
+    "Name" = "Deraec2"
+  }
+}

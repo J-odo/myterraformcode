@@ -41,7 +41,7 @@ resource "aws_instance" "test-3" {
   ami           = "ami-0dfcb1ef8550277af"
   instance_type = "t2.micro"
   tags = {
-    "Name" = "automationec2"
+    "Name" = "workspace-ec2"
   }
 }
 

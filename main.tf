@@ -44,3 +44,19 @@ resource "aws_instance" "test-3" {
     "Name" = "automationec2"
   }
 }
+
+resource "aws_instance" "test-4" {
+  ami           = "ami-0dfcb1ef8550277af"
+  instance_type = "t2.micro"
+  tags = {
+    "Name" = "Rihanaec2"
+  }
+}
+
+resource "aws_instance" "test-5" {
+  ami           = "ami-0dfcb1ef8550277af"
+  instance_type = "t2.micro"
+  tags = {
+    "Name" = "Makoec2"
+  }
+}
